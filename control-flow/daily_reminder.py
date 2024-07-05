@@ -1,6 +1,6 @@
 task = input("Enter the task describtioin: ")
-priority = input("Enter the task priority (high, medium, low): ")
-time_bound = input("Is the task time-bond? (yes or no): ")
+priority = input("Enter the task priority (high/ medium/ low): ")
+time_bound = input("Is the task time-bond? (yes/no): ")
 
 print("\nReminder:")
 match priority.lower():
